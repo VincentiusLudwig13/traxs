@@ -2,7 +2,7 @@ server:
   port: ${SERVER_PORT:8086}
 spring:
   application:
-    name: traxs
+    name: traxs-app
 
   datasource:
     url: ${DB_URL}
