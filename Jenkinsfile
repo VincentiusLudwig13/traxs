@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'default'
+    }
+
     environment {
         DOCKER_IMAGE = "luviana/traxs"
         DOCKER_TAG = "latest"
